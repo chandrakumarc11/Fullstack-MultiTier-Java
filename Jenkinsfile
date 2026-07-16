@@ -15,7 +15,7 @@ pipeline {
     stages {
         stage('Git Checkout') {
             steps {
-                git branch: 'main', credentialsId: 'github-token', url: 'https://github.com/sivakumarjd/Fullstack-MultiTier-Java.git'
+                git branch: 'main', credentialsId: 'github-token', url: 'https://github.com/chandrakumarc11/Fullstack-MultiTier-Java.git'
 
             }
         }
